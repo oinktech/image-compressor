@@ -1,7 +1,7 @@
 // 圖片壓縮系統
 (function() {
     // 創建一個圖片壓縮函數
-    function compressImage(file, quality = 0.8) {
+    function compressImage(file, quality = 0.1) {
         return new Promise((resolve, reject) => {
             const reader = new FileReader();
             reader.onload = function(event) {
